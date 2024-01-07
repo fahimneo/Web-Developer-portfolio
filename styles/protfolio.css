@@ -82,6 +82,10 @@ margin-bottom: 20px;
 }
 
 /* main section style  */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
 
 /*about section style*/
 .about{
@@ -102,4 +106,86 @@ font-family: Open Sans;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do-content{
+    padding: 30px 150px;
+    color: var(--Dark-03, #757575);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+    
+}
+.skills{
+    
+    padding: 30px;
+    
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-content{
+    color: var(--Dark-03, #757575);
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+}
+main  section{
+    margin-top: 130px;
+}
+
+/* resume  */
+.resume-headline{
+    color: var(--Dark-02, #474747);
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.resume-degree{
+    color: var(--Dark-02, #474747);
+font-size: 25px;
+font-weight: 700;
+}
+.resume-uni{
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.resume-content{
+    color: var(--Dark-03, #757575);
+font-size: 16px;
+font-weight: 400;
+ 
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-container hr{
+    margin: 20px 0 20px 0;
+}
+.resume-degree{
+    margin-bottom: 10px;
+}
+.resume-uni{
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
